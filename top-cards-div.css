@@ -1,0 +1,81 @@
+.card-top{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+}
+.card-wid{
+    box-sizing: border-box;
+    width: 85%;
+    position: relative;
+    top: -60px;
+    color: #212d45;
+    display: flex;
+    background-color: white;
+}
+.left-card-top{
+    background-color: #ffc033;
+    width: 50%;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.sm-blk-h2{
+    color: black;
+    font-size: 24px;
+}
+.lg-blu-h2{
+    font-size: 44px;
+}
+.btn-blue{
+    width: 35%;
+    padding: 20px 0px;
+    background-color: #212d45;
+    color: white;
+}
+.btn-blue:hover{
+    background-color: white;
+    color: #212d45;
+}
+.right-card-top{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.right-card-top > div{
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+#one div{
+    text-align: left;
+    width: 60%;
+}
+#two div{
+    text-align: left;
+    width: 60%;
+}
+#three div{
+    text-align: left;
+    width: 60%;
+}
+#four div{
+    text-align: left;
+    width: 60%;
+}
+#one{
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+}
+#two{
+    border-bottom: 1px solid black;
+}
+#three{
+    border-right: 1px solid black
+}
